@@ -1,0 +1,177 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fefee8;
+}
+
+header {
+  background-color: #791616;
+}
+
+h1 {
+  font-family: "Lobster", cursive;
+}
+
+.navbar-brand {
+  font-size: clamp(1em, 1em + 1vw, 35px);
+}
+
+header .nav .nav-link,
+#cardapio .nav .nav-link {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+header .nav .nav-link:hover,
+.nav .nav-link.active,
+#cardapio .nav .nav-link:hover,
+#cardapio .nav .nav-link.active {
+  background-color: #fefee8;
+  color: #791616;
+}
+
+header .navbar-toggler-icon {
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+#carrosel {
+  background-color: #791616;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: rgba(2, 2, 2, 0.4);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+#btn1,
+#btn2,
+#btn3,
+#btn4 {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  margin: 0 15px;
+}
+
+.carousel-indicators {
+  background-color: rgba(2, 2, 2, 0.4);
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+
+#sobrepizzaria,
+#cardapio {
+  padding: 100px 0;
+}
+
+.col-md-7 h2 {
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.titulo {
+  font-family: "Lobster", cursive;
+  color: #791616;
+}
+
+#subtitulo {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.titulo2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.titulo3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#eventos {
+  padding-bottom: 60px;
+}
+
+.nav-cardapio {
+  background-color: #791616;
+  justify-content: center;
+  border-radius: 10px 10px 0 0;
+  padding-top: 10px;
+}
+
+#cardapio-linha {
+  height: 100px;
+}
+
+.container-cardapio {
+  border: 10px solid #791616;
+  border-radius: 20px;
+}
+
+.tab-pane {
+  border: 10px solid #791616;
+  border-radius: 0 0 10px 10px;
+  padding: 10px;
+  background-color: #fefef1;
+}
+
+.bi-instagram {
+  color: rgb(233, 2, 121);
+}
+
+.bi-whatsapp {
+  color: rgb(2, 197, 2);
+}
+
+.social-links li {
+  list-style: none;
+  display: inline;
+}
+
+.social-links a {
+  text-decoration: none;
+}
+
+#falecnoosco {
+  padding: 40px 0;
+}
+
+#btn-form {
+  background-color: #791616;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+#btn-form:hover {
+  transform: scale(0.9);
+}
+
+#form {
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #791616;
+}
+
+#falecnoosco h2,
+#cardapio h2 {
+  color: #791616;
+}
+
+textarea {
+  resize: none;
+}
